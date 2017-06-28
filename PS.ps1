@@ -5,5 +5,5 @@ write-host "Your EID = "  $strEID
  
 $env:ComputerName 
  
-ps | sort -p ws |select -last 5 
+ps | sort -p ws |select -last 2
 
